@@ -1,0 +1,28 @@
+{
+  "name": "weather-cli",
+  "version": "1.0.0",
+  "description": "CLI for getting weather",
+  "main": "index.js",
+  "bin": "./index.js",
+  "os": [
+    "!win32"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nikita-Smirnov/weather-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "weather"
+  ],
+  "author": "Nikita Smirnov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nikita-Smirnov/weather-cli/issues",
+    "email": "nikitasmirnov90@gmail.com"
+  },
+  "homepage": "https://github.com/Nikita-Smirnov/weather-cli#readme"
+}
