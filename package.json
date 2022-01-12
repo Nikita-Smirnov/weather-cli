@@ -2,11 +2,11 @@
   "name": "weather-cli",
   "version": "1.0.0",
   "description": "CLI for getting weather",
-  "main": "index.js",
-  "bin": "./index.js",
-  "os": [
-    "!win32"
-  ],
+  "type": "module",
+  "main": "weather.js",
+  "bin": {
+    "weather": "weather.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -24,5 +24,10 @@
     "url": "https://github.com/Nikita-Smirnov/weather-cli/issues",
     "email": "nikitasmirnov90@gmail.com"
   },
-  "homepage": "https://github.com/Nikita-Smirnov/weather-cli#readme"
+  "homepage": "https://github.com/Nikita-Smirnov/weather-cli#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "chalk": "^5.0.0",
+    "dedent-js": "^1.0.1"
+  }
 }
